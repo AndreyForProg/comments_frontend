@@ -7,8 +7,8 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <GoogleReCaptchaProvider reCaptchaKey='6LdckQIkAAAAAIti_aaT_fPhD3knm7R3qyfeysc8'> */}
-    <App />
-    {/* </GoogleReCaptchaProvider> */}
+    <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_CAPTCHA_SECRET}>
+      <App />
+    </GoogleReCaptchaProvider>
   </StrictMode>,
 )

@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --force",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.5",
     "antd": "^5.24.4",
     "antd-style": "^3.7.1",
     "axios": "^1.8.4",

@@ -35,7 +35,7 @@ const MakeComment = ({ open, setOpen }) => {
         className: styles.linearGradientButton,
       }}
     >
-      <Space>
+      <Space style={{ marginBottom: '1%' }}>
         <Button type='primary' size='large' icon={<AntDesignOutlined />} onClick={() => setOpen(true)}>
           make comment
         </Button>

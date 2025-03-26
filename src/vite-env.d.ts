@@ -2,7 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_BACKEND_URL: string
-  // Add other environment variables as needed
+  readonly VITE_CAPTCHA_SECRET: string
 }
 
 interface ImportMeta {
