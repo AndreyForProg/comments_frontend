@@ -339,7 +339,7 @@ const CreateCommentModal = ({ open, setOpen, handleCancel, selectedCommentId }) 
           </Form.Item>
 
           <Form.Item label='Captcha' required={true}>
-            <ReCAPTCHA sitekey={import.meta.env.VITE_CAPTCHA_SECRET} />
+            <ReCAPTCHA sitekey='6LdckQIkAAAAAIti_aaT_fPhD3knm7R3qyfeysc8' />
           </Form.Item>
 
           {form.getFieldValue('upload')?.[0]?.originFileObj && (
